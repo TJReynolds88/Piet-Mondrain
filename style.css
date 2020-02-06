@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+
+/*black: #17161b;
+red: #ad2c34;
+white: #f6f6f4;
+blue:  #25476a;
+yellow: #f8ac1d;
+purple: #9fabcf;
+*/
+
+
+body {
+  overflow: hidden;
+  font-family: 'Raleway', sans-serif;
+}
+
+.container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image:linear-gradient(#eee, #aaa);
+}
+
+.frame{
+  background: white;
+  position: relative;
+  width: 500px;
+  height: 500px;
+  border: 3px solid black;
+  box-shadow: inset 0 0 5px rgba(0,0,0, .3);
+}
+
+.painting{
+  box-shadow: 2px 0 10px rgba(0,0,0, .3);
+  left: 12%;
+  top: 10%;
+  width: 75%;
+  height: 70%;
+  position: absolute;
+  display: grid;
+  grid-template-columns: 23px 44px 64px 96px 96px  30px auto;
+  grid-template-rows: 25px 35px 30px 85px 50px 50px 30px 30px 20px;
+  grid-template-areas: 
+    "a b b e g i i"
+    "a c d e g i i"
+    "a c d f h i i"
+    "j k k m o q r"
+    "j l l n p q r"
+    "s s t u p q r"
+    "s s t v w x x"
+    "y y t v w x x"
+    "y y z z a1 x x"
+    
+}
+
+.item1{
+  background: black;
+  grid-area: a;
+  border-bottom: 3px solid black;
+}
+
+.item2{
+  background: lightgrey;
+  grid-area: b;
+  border-bottom: 3px solid black;
+  border-right: 3px solid black;
+}
+
+.item3{
+  background: red;
+  grid-area: c;
+  border-bottom: 3px solid black;
+  border-right: 3px solid black;
+}
+
+.item4{
+  background: white;
+  grid-area: d;
+  border-bottom: 3px solid black;
+  border-right: 3px solid black;
+}
+
+.item5{
+  background: white;
+  grid-area: e;
+  border-bottom: 3px solid black;
+  border-right: 3px solid black;
+}
+
+.item6{
+  background: yellow;
+  grid-area: f;
+  border-bottom: 3px solid black;
+  border-right: 3px solid black;
+}
+
+.item7{
+  background: lightgrey;
+  grid-area: g;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+}
+
+.item8{
+  background: blue;
+  grid-area: h;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+}
+
+.item9{
+  background: yellow;
+  grid-area: i;
+  border-bottom: 3px solid black;
+}
+.item10{
+  background: white;
+  grid-area: j;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+}
+
+.item11{
+  grid-area: k;
+  background: blue;
+  border-bottom: 3px solid black;
+  border-right: 3px solid black;
+}
+
+.item12{
+  grid-area: l;
+  background: black;
+  border-bottom: 3px solid black;
+  border-right: 3px solid black;
+}
+
+.item13{
+  grid-area: m;
+  background: yellow;
+  border-bottom: 3px solid black;
+  border-right: 3px solid black;
+}
+
+
+.item14{
+  grid-area: n;
+  background: white;
+  border-bottom: 3px solid black;
+  border-right: 3px solid black;
+}
+
+.item15{
+  grid-area: o;
+  background: lightgrey;
+  border-bottom: 3px solid black;
+  border-right: 3px solid black;
+}
+.item16{
+  grid-area: p;
+  background: black;
+  border-bottom: 3px solid black;
+  border-right: 3px solid black;
+}
+.item17{
+  grid-area: q;
+  background: red;
+  border-bottom: 3px solid black;
+  border-right: 3px solid black;
+}
+.item18{
+  grid-area: r;
+  background: white;
+  border-bottom: 3px solid black;
+}
+.item19{
+  grid-area: s;
+  background: lightgrey;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+}
+.item20{
+  grid-area: t;
+  background: red;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+}
+.item21{
+  grid-area: u;
+  background: white;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+}
+.item22{
+  grid-area: v;
+  background: blue;
+  border-bottom: 3px solid black;
+  border-right: 3px solid black;
+}
+.item23{
+  grid-area: w;
+  background: yellow;
+  border-bottom: 3px solid black;
+  border-right: 3px solid black;
+}
+.item24{
+  grid-area: x;
+  background: white;
+}
+.item25{
+  grid-area: y;
+  background: white;
+  border-right: 3px solid black;
+}
+.item26{
+  grid-area: z;
+  background: black;
+}
+.item27{
+  grid-area: a1;
+  background: lightgrey;
+  border-right: 3px solid black;
+}
+
+
+
+.artist{
+  text-align: center;
+  margin-top: 425px;
+}
+h1{
+  margin: 0;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  font-size: 1.3em;
+}
+  p {
+    margin: 5px 0 0 0;
+    font-size: .5em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
